@@ -1,0 +1,24 @@
+{
+  "parser": "babel-eslint",
+  "rules": {
+    "no-unused-vars": "off",
+    "comma-spacing": ["warn", { "before": false, "after": true }],
+//    "no-console": ["warn", { "allow": ["warn", "error"] }],
+    "semi": [2, "always"],
+    "no-alert": "error",
+    "quotes": ["error","double"]
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
